@@ -166,9 +166,9 @@ NSComparisonResult compareViewDepth(UIView *view1, UIView *view2, iCarousel *sel
     [_contentView addGestureRecognizer:tapGesture];
     
     //set up accessibility
-    self.accessibilityTraits = UIAccessibilityTraitAllowsDirectInteraction;
-    self.isAccessibilityElement = YES;
-    
+    //self.accessibilityTraits = UIAccessibilityTraitAllowsDirectInteraction;
+    //self.isAccessibilityElement = YES;
+
 #else
     
     [_contentView setWantsLayer:YES];
